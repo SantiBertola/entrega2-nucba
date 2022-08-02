@@ -6,9 +6,11 @@
     text-decoration: none;
     list-style: none;  
 }
- /* #0f37c9 (azul
-#3084cb (celeste
-  #f0a418 (amarillo*/
+ /* 
+ #0f37c9 (azul)
+ #3084cb (celeste)
+ #f0a418 (amarillo) 
+ */
 
  header {
     display: flex;
@@ -41,7 +43,6 @@
 .navbar a:hover {
     background-color: #f0a418;
     color: #3084cb;
-    
 }
 
 
