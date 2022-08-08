@@ -12,7 +12,7 @@
  #f0a418 (amarillo) 
  */
 
- header {
+nav {
     display: flex;
     height: 100px;
     background-color:#3084cb;
