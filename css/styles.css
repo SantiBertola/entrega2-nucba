@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Merriweather', serif;
+}
+
+body {
     background-color: #fff8dc;
 }
  /* 
@@ -24,7 +27,7 @@ header {
 
  header .img1 {
     background-color: #3085cb;
-    height: 200px;
+    height: 100px;
  }
 
 
