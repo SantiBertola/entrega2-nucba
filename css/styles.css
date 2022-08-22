@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;  
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    background-color: #fff8dc;
 }
  /* 
  #0f37c9 (azul)
@@ -12,32 +14,41 @@
  #f0a418 (amarillo) 
  */
 
-nav {
+header {
     display: flex;
     height: 100px;
-    background-color:#3084cb;
+    background-color:#3085cb;
     justify-content: space-between;
     align-items: center;
  }
 
- .navbar ul {
-    list-style: none;
+ header .img1 {
     display: flex;
-    padding-right: 40px;
+    height: 200px;
+ }
+
+
+ .navbar ul {
+    display: flex;
+    background-color:#3085cb;
+    gap: 10px;
 } 
 
 .navbar li {
     font-size: 1.5rem;
     color: whitesmoke;
+    background-color:#3085cb;
     font-family: 'Merriweather', serif;
-    padding-left: 5px;
+    gap: 15px;
 }
 
 .navbar a{
-    padding-right: 15px;
+    gap: 15px;
     font-size: 1.5rem;
     color: whitesmoke;
+    background-color:#3085cb;
     font-family: 'Merriweather', serif;
+    margin-right: 10px;
 }
 
 .navbar a:hover {
@@ -45,5 +56,69 @@ nav {
     color: #3084cb;
 }
 
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+.hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.hero-info h1 {
+    font-size: 65px;
+    font-weight: 900;
+    color: #f0a418;
+    border: 3px solid #f0a418;
+    border-radius: 10px;
+}
+
+.hero-info p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0a418;
+    margin: 10px;
+}
+
+.hero-info span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0a418;
+    margin: 10px;
+}
+
+.links-hero a {
+    font-size: 22px;
+    border: 4px solid #3084cb;
+    border-radius: 10px;
+    background-color: #3084cb;
+    color: white;
+    margin: 20px;
+}
+
+.links-hero a:hover {
+   background-color:  #0f37c9; 
+   border: 4px solid #0f37c9;
+   border-radius: 10px;
+}
+
+.hero-parrafo {
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    color: gray;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
